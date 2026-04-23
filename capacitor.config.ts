@@ -5,9 +5,16 @@ const config: CapacitorConfig = {
   appName: 'Blue Stamp',
   webDir: 'dist',
   server: {
-    // Use http scheme so the app can fetch cleartext HTTP paperclip servers
-    // without mixed-content restrictions from the WebView itself.
     androidScheme: 'http',
+  },
+  plugins: {
+    SplashScreen: {
+      launchShowDuration: 1200,
+      launchAutoHide: false,
+      backgroundColor: '#0f0f0f',
+      androidSplashResourceName: 'splash',
+      showSpinner: false,
+    },
   },
 }
 
