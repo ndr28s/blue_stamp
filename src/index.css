@@ -1,10 +1,1 @@
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  background: #ffffff;
-  color: #1a1a1a;
-}
+/* global reset only — component styles are in App.css */
