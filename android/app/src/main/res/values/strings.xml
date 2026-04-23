@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Blue Stamp</string>
+    <string name="title_activity_main">Blue Stamp</string>
+    <string name="package_name">com.bluestamp.app</string>
+    <string name="custom_url_scheme">com.bluestamp.app</string>
+</resources>
